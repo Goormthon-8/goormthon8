@@ -5,7 +5,6 @@ import Start from "./pages/Start";
 import StampMake from "./pages/StampMake";
 import Main from "./pages/Main";
 import ThemeSelect from "./pages/ThemeSelect";
-import Main from "./pages/Main";
 
 const Router = () => {
   return (
