@@ -8,7 +8,7 @@ export const Container = styled.div`
   border: 1px solid;
 `;
 
-const getButtonColor = (nowPage) => (nowPage ? "black" : "gray");
+const getButtonColor = (nowPage) => (nowPage ? "black" : "#CECECE");
 
 export const ButtonContainer = styled.div`
   display: flex;
