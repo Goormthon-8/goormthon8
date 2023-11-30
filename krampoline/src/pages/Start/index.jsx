@@ -4,8 +4,8 @@ import * as S from "./Start.style";
 import Input from "../../components/Input";
 const Start = () => {
   const navigate = useNavigate();
-  const handleButton = () => {
-    navigate("./make-new");
+  const handleButton = async () => {
+    //navigate("./make-new");
     console.log("클릭");
   };
   return (
