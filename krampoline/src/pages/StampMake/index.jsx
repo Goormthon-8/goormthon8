@@ -1,8 +1,16 @@
+import { useEffect } from "react";
 import Button from "../../components/Button";
 import Input from "../../components/Input";
 import * as S from "./StampMake.style";
+import axios from "axios";
 
 const StampMake = () => {
+  useEffect(async () => {
+    const formData = {};
+
+    const API_URL = import.meta.env.VITE_APP_BASE_URL;
+    const response = await axios.post(`${API_URL}/`, formData);
+  }, []);
   return (
     <S.Container>
       <S.AIContainer>생성형 AI 스탬프</S.AIContainer>
