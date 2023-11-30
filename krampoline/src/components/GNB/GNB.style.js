@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 36rem;
+  width: 100vw;
   border: 1px solid;
 `;
 
@@ -14,7 +14,7 @@ export const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 12rem;
+  width: 100%;
   height: 100%;
   padding: 2rem;
 
