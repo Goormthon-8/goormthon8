@@ -5,7 +5,8 @@ export const placeList = {
   },
   2: {
     name: "제주시",
-    imgUrl: "/assets/images/jeju-2.png",
+    // imgUrl: "/assets/images/jeju-2.png",
+    imgUrl: "/assets/images/map-fix.png",
   },
   3: {
     name: "조천 구좌",
