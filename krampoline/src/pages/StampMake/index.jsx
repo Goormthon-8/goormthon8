@@ -9,7 +9,7 @@ const StampMake = () => {
   //   useEffect(async () => {
   //     const formData = {};
 
-  //     const API_URL = import.meta.env.VITE_APP_BASE_URL;
+  //     const API_URL = import.meta.env.REACT_APP_BASE_URL;
   //     const response = await axios.post(`${API_URL}/`, formData);
   //   }, []);
   return (
