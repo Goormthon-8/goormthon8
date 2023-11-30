@@ -17,13 +17,13 @@ export const InputContainer = styled.div`
 
 export const InputWhole = styled.div`
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 `;
 
 export const ButtonContainer = styled.div`
   display: flex;
-  flex-direction: column-reverse;
-  margin: 5rem 0;
+  flex-direction: column;
+  margin-top: 5rem;
 `;
 
 export const AIContainer = styled.div`
@@ -32,4 +32,10 @@ export const AIContainer = styled.div`
   align-items: center;
   height: 40%;
   margin: 2rem;
+`;
+
+export const GNBContainer = styled.div`
+  display: flex;
+  position: fixed;
+  bottom: 0;
 `;
