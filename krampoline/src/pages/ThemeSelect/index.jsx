@@ -33,9 +33,6 @@ const ThemeSelect = () => {
       <S.ButtonContainer>
         <Button onClick={handleButton}>입력 완료!</Button>
       </S.ButtonContainer>
-      <S.GNBContainer>
-        <GlobalNavigation nowPage={1} />
-      </S.GNBContainer>
     </S.Container>
   );
 };

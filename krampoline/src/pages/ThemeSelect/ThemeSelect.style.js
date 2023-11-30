@@ -36,13 +36,9 @@ export const Theme = styled.div`
 export const ButtonContainer = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 1rem;
-`;
-
-export const GNBContainer = styled.div`
-  display: flex;
   position: fixed;
-  bottom: 0;
+  bottom: 2.5rem;
+  margin: 1rem;
 `;
 
 export const CalendarContainer = styled.div`
