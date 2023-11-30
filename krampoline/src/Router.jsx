@@ -10,16 +10,11 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/sticker" element={<StickerPage />} />
-        <Route path="/test" element={<Start />} />
-        <Route path="/stampMake" element={<StampMake />} />
-        <Route path="/test" element={<Main />} />
         <Route path="/" element={<Start />} />
         <Route path="/theme-select" element={<ThemeSelect />} />
-        <Route path="/stamp-make" element={<StampMake />} />
         <Route path="/test" element={<Main />} />
         <Route path="/sticker" element={<StickerPage />} />
+        <Route path="/stamp-make" element={<StampMake />} />
       </Routes>
     </BrowserRouter>
   );

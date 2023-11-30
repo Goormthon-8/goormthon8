@@ -7,7 +7,7 @@ import * as S from "./ThemeSelect.style";
 const ThemeSelect = () => {
   const navigate = useNavigate();
   const handleButton = () => {
-    navigate("/sticker");
+    navigate("/test");
   };
   return (
     <S.Container>
