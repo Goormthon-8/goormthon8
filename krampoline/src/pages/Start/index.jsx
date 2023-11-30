@@ -4,7 +4,7 @@ import * as S from "./Start.style";
 const Start = () => {
   const navigate = useNavigate();
   const handleButton = () => {
-    navigate("./stampMake");
+    navigate("./stamp-make");
     console.log("클릭");
   };
   return (
