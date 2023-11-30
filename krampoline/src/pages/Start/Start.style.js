@@ -17,6 +17,7 @@ export const Img = styled.img`
 
 export const ButtonContainer = styled.div`
   display: flex;
+  align-items: center;
   position: fixed;
   bottom: 8rem;
   width: 100vw;

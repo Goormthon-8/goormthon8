@@ -4,14 +4,20 @@ import Input from "../../components/Input";
 import * as S from "./StampMake.style";
 // import axios from "axios";
 import GlobalNavigation from "../../components/GNB";
+import { useNavigate } from "react-router";
 
 const StampMake = () => {
+  const navigate = useNavigate();
   //   useEffect(async () => {
   //     const formData = {};
 
   //     const API_URL = import.meta.env.REACT_APP_BASE_URL;
   //     const response = await axios.post(`${API_URL}/`, formData);
   //   }, []);
+
+  //   const handleButton = () => {
+  //     navigate("/sticker");
+  //   };
   return (
     <S.Container>
       <S.AIContainer>생성형 AI 스탬프</S.AIContainer>
