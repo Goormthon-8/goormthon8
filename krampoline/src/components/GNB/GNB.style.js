@@ -16,7 +16,7 @@ export const ButtonContainer = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
-  padding: 2rem;
+  padding: 1.5rem;
 
   color: ${({ $nowPage }) => getButtonColor($nowPage)};
   &:hover {
