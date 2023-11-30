@@ -1,11 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Main from "./pages/Main";
+import Start from "./pages/Start";
+import StampMake from "./pages/StampMake";
 
 const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<Start />} />
+        <Route path="/stampMake" element={<StampMake />} />
       </Routes>
     </BrowserRouter>
   );
