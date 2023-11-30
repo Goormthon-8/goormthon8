@@ -5,6 +5,7 @@ import Start from "./pages/Start";
 import StampMake from "./pages/StampMake";
 import Main from "./pages/Main";
 import ThemeSelect from "./pages/ThemeSelect";
+import Main from "./pages/Main";
 
 const Router = () => {
   return (
@@ -18,6 +19,7 @@ const Router = () => {
         <Route path="/" element={<Start />} />
         <Route path="/theme-select" element={<ThemeSelect />} />
         <Route path="/stamp-make" element={<StampMake />} />
+        <Route path="/test" element={<Main />} />
         <Route path="/sticker" element={<StickerPage />} />
       </Routes>
     </BrowserRouter>
