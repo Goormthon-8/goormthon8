@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 100vh;
 `;
@@ -23,7 +26,7 @@ export const InputWhole = styled.div`
 export const ButtonContainer = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 5rem;
+  margin: 1rem;
 `;
 
 export const AIContainer = styled.div`
