@@ -10,6 +10,7 @@ import GooJwa from "./Part/GooJwa.jsx";
 const StickerPage = () => {
   const location = useLocation();
   const page = location.state.page;
+  // const page = 2;
 
   if (page === 1) {
     return <Hanlim />;
