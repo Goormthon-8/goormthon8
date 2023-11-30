@@ -9,7 +9,9 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Start />} />
+        <Route path="/" element={<Main />} />
+        <Route path="/sticker" element={<StickerPage />} />
+        <Route path="/test" element={<Start />} />
         <Route path="/stampMake" element={<StampMake />} />
         <Route path="/test" element={<Main />} />
         <Route path="/sticker" element={<StickerPage />} />
