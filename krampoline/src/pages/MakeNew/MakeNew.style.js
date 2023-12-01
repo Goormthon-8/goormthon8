@@ -6,7 +6,9 @@ export const Container = styled.div`
   /* align-items: center; */
   margin-top: 10rem;
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
+
+  overflow: hidden;
 `;
 
 export const ButtonContainer = styled.div`
