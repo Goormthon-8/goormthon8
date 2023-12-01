@@ -7,7 +7,7 @@ export const Container = styled.div`
   margin-top: 10rem;
   width: 100vw;
   height: 100vh;
-  padding: 0 3.1rem;
+  /* padding: 0 3.1rem; */
 `;
 
 export const Img = styled.img`
