@@ -83,24 +83,38 @@ const ThemeSelect = () => {
       <S.ThemeText>방문하는 계절을 선택하세요!</S.ThemeText>
       <S.ThemeContainer>
         <S.OneLine>
-          <S.Theme onClick={handleSpringActivation}>
-            <S.ThemeInnerText>봄</S.ThemeInnerText>
-            <S.Img src={getSpringImagePath()} customStyle="margin-top: 2rem;" />
-          </S.Theme>
-          <S.Theme onClick={handleSummerActivation}>
-            <S.ThemeInnerText>여름</S.ThemeInnerText>
-            <S.Img src={getSummerImagePath()} customStyle="width:6rem;" />
-          </S.Theme>
+          {/* <S.Theme onClick={handleSpringActivation}> */}
+          <S.Img
+            onClick={handleSpringActivation}
+            src={getSpringImagePath()}
+            customStyle="margin-top: 2rem;"
+          />
+          {/* </S.Theme> */}
+          {/* <S.Theme onClick={handleSummerActivation}> */}
+          <S.Img
+            src={getSummerImagePath()}
+            customStyle="width:6rem;"
+            onClick={handleSummerActivation}
+          />
+          {/* </S.Theme> */}
         </S.OneLine>
         <S.OneLine>
-          <S.Theme onClick={handleFallActivation}>
-            <S.ThemeInnerText>가을</S.ThemeInnerText>
-            <S.Img src={getFallImagePath()} customStyle="width: 3.5rem;" />
-          </S.Theme>
-          <S.Theme onClick={handleWinterActivation}>
-            <S.ThemeInnerText>겨울</S.ThemeInnerText>
-            <S.Img src={getWinterImagePath()} customStyle="width: 4.5rem;" />
-          </S.Theme>
+          {/* <S.Theme onClick={handleFallActivation}> */}
+          {/* <S.ThemeInnerText>가을</S.ThemeInnerText> */}
+          <S.Img
+            src={getFallImagePath()}
+            customStyle="width: 3.5rem;"
+            onClick={handleFallActivation}
+          />
+          {/* </S.Theme> */}
+          {/* <S.Theme onClick={handleWinterActivation}> */}
+          {/* <S.ThemeInnerText>겨울</S.ThemeInnerText> */}
+          <S.Img
+            src={getWinterImagePath()}
+            customStyle="width: 4.5rem;"
+            onClick={handleWinterActivation}
+          />
+          {/* </S.Theme> */}
         </S.OneLine>
       </S.ThemeContainer>
       <S.ButtonContainer>

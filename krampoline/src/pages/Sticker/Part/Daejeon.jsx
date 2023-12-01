@@ -6,6 +6,8 @@ import { placeList } from "../placeList.js";
 import { useEffect, useState } from "react";
 import List from "../../../components/List/index.jsx";
 import ListModal from "../../Main/List.jsx";
+import GlobalNavigation from "../../../components/GNB/index.jsx";
+import * as S from "./Part.style.js";
 
 const Daejeon = () => {
   const location = useLocation();
@@ -86,6 +88,9 @@ const Daejeon = () => {
         )}
       </MapWrapper>
       <ListModal part={6} />
+      <S.GNBContainer>
+        <GlobalNavigation nowPage={2} />
+      </S.GNBContainer>
     </MainWrapper>
   );
 };
