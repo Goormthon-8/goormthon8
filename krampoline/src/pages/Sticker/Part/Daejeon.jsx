@@ -88,9 +88,6 @@ const Daejeon = () => {
         )}
       </MapWrapper>
       <ListModal part={6} />
-      <S.GNBContainer>
-        <GlobalNavigation nowPage={2} />
-      </S.GNBContainer>
     </MainWrapper>
   );
 };

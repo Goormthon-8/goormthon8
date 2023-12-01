@@ -146,9 +146,6 @@ const JejuCity = () => {
         )}
       </MapWrapper>
       <ListModal part={2} />
-      <S.GNBContainer>
-        <GlobalNavigation nowPage={2} />
-      </S.GNBContainer>
     </MainWrapper>
   );
 };

@@ -73,9 +73,6 @@ const Hanlim = () => {
         )}
       </MapWrapper>
       <ListModal part={1} />
-      <S.GNBContainer>
-        <GlobalNavigation nowPage={2} />
-      </S.GNBContainer>
     </MainWrapper>
   );
 };

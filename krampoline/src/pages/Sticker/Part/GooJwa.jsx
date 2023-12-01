@@ -88,9 +88,6 @@ const GooJwa = () => {
         )}
       </MapWrapper>
       <ListModal part={3} />
-      <S.GNBContainer>
-        <GlobalNavigation nowPage={2} />
-      </S.GNBContainer>
     </MainWrapper>
   );
 };

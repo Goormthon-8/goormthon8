@@ -73,9 +73,6 @@ const JoongMoon = () => {
         )}
       </MapWrapper>
       <ListModal part={5} />
-      <S.GNBContainer>
-        <GlobalNavigation nowPage={2} />
-      </S.GNBContainer>
     </MainWrapper>
   );
 };

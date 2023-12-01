@@ -88,9 +88,6 @@ const Namwon = () => {
         )}
       </MapWrapper>
       <ListModal part={4} />
-      <S.GNBContainer>
-        <GlobalNavigation nowPage={2} />
-      </S.GNBContainer>
     </MainWrapper>
   );
 };
